@@ -19,10 +19,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- GLightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-
     <!-- CSS -->
     <link href="assets/css/index.css" rel="stylesheet">
 
@@ -50,10 +52,10 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
 
-      <div class="container" data-aos="fade-up">
+      <div class="container">
         <div class="row">
 
-          <div class="col-xl-5 col-md-6">
+          <div class="col-xl-5 col-md-6" data-aos="fade-right">
             <h2>Cyboard School is better than 98% of India’s Physical Schools</h2>
             <ul>
               <li>
@@ -80,11 +82,11 @@
             </ul>
           </div>
 
-          <div class="col-xl-3">
+          <div class="col-xl-3" data-aos="fade-in">
             <img class="img-fluid hero-img" src="assets/media/hero-img.png">
           </div>
 
-          <div class="col-xl-4 col-md-6">
+          <div class="col-xl-4 col-md-6" data-aos="fade-left">
             <div class="book-a-demo-form">
               <form action="/" method="post" id="book-a-demo">
 
@@ -109,8 +111,9 @@
                   <input type="text" name="city" id="city" placeholder="City" required>
                 </div>
 
-                <div class="g-recaptcha" data-sitekey="6Lf7vnEeAAAAAKUPLRKkPT_Qj77gp7KI4G-w6hm9
-                "></div>
+                <div class="recaptcha">
+                  <div class="g-recaptcha" data-sitekey="6Lf7vnEeAAAAAKUPLRKkPT_Qj77gp7KI4G-w6hm9"></div>
+                </div>
 
                 <input type="submit" name="register" id="register" value="REGISTER"></button>
               </form>
@@ -126,15 +129,15 @@
 
       <!-- ======= Video Section ======= -->
       <section id="video" class="video">
-        <div class="container-fluid p-0" data-aos="fade-up">
+        <div class="container-fluid p-0">
 
           <div class="row g-0">
-            <div class="col-lg-6 video-play position-relative">
+            <div class="col-lg-6 video-play position-relative" data-aos="fade-right">
               <a href="https://www.youtube.com/watch?v=c4PLJ2m8GGU" class="glightbox play-btn">
                 <i class="fa-solid fa-play"></i>
               </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-left">
               <div class="content">
                 
                 <div class="section-title-2">
@@ -159,9 +162,9 @@
 
       <!-- ======= Why LMS Section ======= -->
       <section id="why-lms" class="why-lms section-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
-          <div class="section-title">
+          <div class="section-title" data-aos="fade-up">
             <h2>Why Learning Management System?</h2>
             <p>Why Our LMS Are Powerful and Easy to Use?</p>
           </div>
@@ -169,7 +172,7 @@
           <div class="row">
             <div class="col-xl-8 d-flex flex-column align-items-lg-center">
 
-              <div class="lms-feature" data-aos="fade-up" data-aos-delay="100">
+              <div class="lms-feature" data-aos="fade-up" data-aos-delay="50">
                 <div class="icon-box">
                   <img src="assets/media/lms-icons/dashboard.png">
                 </div>
@@ -179,7 +182,7 @@
                 </div>
               </div>
 
-              <div class="lms-feature" data-aos="fade-up" data-aos-delay="200">
+              <div class="lms-feature" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon-box">
                   <img src="assets/media/lms-icons/ui-design.png">
                 </div>
@@ -189,7 +192,7 @@
                 </div>
               </div>
 
-              <div class="lms-feature" data-aos="fade-up" data-aos-delay="300">
+              <div class="lms-feature" data-aos="fade-up" data-aos-delay="150">
                 <div class="icon-box">
                   <img src="assets/media/lms-icons/files.png">
                 </div>
@@ -199,7 +202,7 @@
                 </div>
               </div>
 
-              <div class="lms-feature" data-aos="fade-up" data-aos-delay="400">
+              <div class="lms-feature" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
                   <img src="assets/media/lms-icons/ai.png">
                 </div>
@@ -209,7 +212,7 @@
                 </div>
               </div>
 
-              <div class="lms-feature" data-aos="fade-up" data-aos-delay="500">
+              <div class="lms-feature" data-aos="fade-up" data-aos-delay="250">
                 <div class="icon-box">
                   <img src="assets/media/lms-icons/community.png">
                 </div>
@@ -230,16 +233,16 @@
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
-          <div class="section-title">
+          <div class="section-title" data-aos="fade-up">
             <h2>What makes us 'India's Best Online School?</h2>
             <p>Global adoption of technology in education is transforming the way we track and learn</p>
           </div>
 
           <div class="row gy-5">
 
-            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="service-item">
                 <div class="img">
                   <img src="assets/media/Homegrown-LMS-Powered-by-AI.jpg" class="img-fluid" alt="">
@@ -253,7 +256,7 @@
               </div>
             </div><!-- End Service Item -->
 
-            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
               <div class="service-item">
                 <div class="img">
                   <img src="assets/media/india's-best-teaching.jpg" class="img-fluid" alt="">
@@ -267,7 +270,7 @@
               </div>
             </div><!-- End Service Item -->
 
-            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
               <div class="service-item">
                 <div class="img">
                   <img src="assets/media/Proud-Parents-Speak.jpg" class="img-fluid" alt="">
@@ -281,7 +284,7 @@
               </div>
             </div><!-- End Service Item -->
 
-            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="col-xl-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
               <div class="service-item">
                 <div class="img">
                   <img src="assets/media/unmatched-fees.jpg" class="img-fluid" alt="">
@@ -301,117 +304,305 @@
       </section><!-- End Services Section -->
       
 
-      <!-- ======= Transforming Section ======= 
+      <!-- ======= Transforming Section ======= -->
       <section id="transforming" class="transforming section-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
-          <div class="section-title">
-            <h2>Services</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <div class="section-title" data-aos="fade-up">
+            <h2>Transforming the K-12 Education with 100% Online Classes</h2>
           </div>
 
           <div class="row">
-            <div class="col-md-6">
-
+            <div class="col-lg-6" data-aos="fade-right">
+                <!-- Tabs nav -->
                 <div class="row nav nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                    <a class="col-lg-6 d-flex align-items-stretch nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                  <a class="col-sm-6 d-flex align-items-stretch nav-link active" id="virtual-tab" data-bs-toggle="pill" data-bs-target="#virtual" role="tab" aria-controls="virtual" aria-selected="true">
 
-                      <div class="icon-box iconbox-orange ">
-                        <div class="icon">
-                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                          </svg>
-                          <i class="fas fa-anchor"></i>
-                        </div>
-                        <h4>Single Virtual Classroom</h4>
-                        <p>Interact &amp; teach students who are miles apart with real classroom like experience</p>
+                    <div class="icon-box icon-box-purple">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                        </svg>
+                        <i class="fas fa-laptop"></i>
                       </div>
+                      <h5>Single Virtual Classroom</h5>
+                      <p>Interact &amp; teach students who are miles apart with real classroom like experience</p>
+                    </div>
 
-                    </a>
+                  </a>
 
-                    <a class="col-lg-6 nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                        
-                      <div class="icon-box iconbox-orange ">
-                        <div class="icon">
-                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                          </svg>
-                          <i class="fas fa-anchor"></i>
-                        </div>
-                        <h4>Single Virtual Classroom</h4>
-                        <p>Interact &amp; teach students who are miles apart with real classroom like experience</p>
+                  <a class="col-sm-6 nav-link" id="secured-tab" data-bs-toggle="pill" data-bs-target="#secured" role="tab" aria-controls="secured" aria-selected="false">
+                      
+                    <div class="icon-box icon-box-orange">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                        </svg>
+                        <i class="fas fa-shield-alt"></i>
                       </div>
+                      <h5>100% Secured</h5>
+                      <p>Manageable digitally secure login and complete session control to teachers</p>
+                    </div>
 
-                    </a>
+                  </a>
 
-                    <a class="col-lg-6 nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                  <a class="col-sm-6 nav-link" id="assignment-tab" data-bs-toggle="pill" data-bs-target="#assignment" role="tab" aria-controls="assignment" aria-selected="false">
 
-                      <div class="icon-box iconbox-orange ">
-                        <div class="icon">
-                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                          </svg>
-                          <i class="fas fa-anchor"></i>
-                        </div>
-                        <h4>Single Virtual Classroom</h4>
-                        <p>Interact &amp; teach students who are miles apart with real classroom like experience</p>
+                    <div class="icon-box icon-box-orange">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                        </svg>
+                        <i class="fas fa-file-invoice"></i>
                       </div>
+                      <h5>Assignment and Assessment</h5>
+                      <p>Share assignments online and get quick evaluation with automatic assessment</p>
+                    </div>
 
-                    </a>
+                  </a>
 
-                    <a class="col-lg-6 nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                  <a class="col-sm-6 nav-link" id="reports-tab" data-bs-toggle="pill" data-bs-target="#reports" role="tab" aria-controls="reports" aria-selected="false">
 
-                      <div class="icon-box iconbox-orange ">
-                        <div class="icon">
-                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                          </svg>
-                          <i class="fas fa-anchor"></i>
-                        </div>
-                        <h4>Single Virtual Classroom</h4>
-                        <p>Interact &amp; teach students who are miles apart with real classroom like experience</p>
+                    <div class="icon-box icon-box-purple">
+                      <div class="icon">
+                        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                          <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                        </svg>
+                        <i class="fas fa-chart-line"></i>
                       </div>
-                    </a>
+                      <h5>Personalized Reports</h5>
+                      <p>Get personalised reports on assessment, attendance and performance</p>
+                    </div>
+                  </a>
 
-                  </div>
-                </div>
+              </div>    
+            </div>
 
-
-            <div class="col-md-6">
-   
+            <div class="col-lg-6" data-aos="fade-left">
+                <!-- Tabs content -->
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="tab-pane fade show active" id="virtual" role="tabpanel" aria-labelledby="virtual-tab">
                       <div class="transforming-img">
-                        <img src="assets/media/indian-kid-with-laptop.jpg" class="img-fluid">
+                        <img src="assets/media/virtual.jpg" class="img-fluid">
+                      </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="secured" role="tabpanel" aria-labelledby="secured-tab">
+                      <div class="transforming-img">
+                        <img src="assets/media/secured.jpg" class="img-fluid">
                       </div>
                     </div>
                     
-                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <h4 class="font-italic mb-4">Bookings</h4>
-                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="tab-pane fade" id="assignment" role="tabpanel" aria-labelledby="assignment-tab">
+                      <div class="transforming-img">
+                        <img src="assets/media/assignment.jpg" class="img-fluid">
+                      </div>
                     </div>
                     
-                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <h4 class="font-italic mb-4">Reviews</h4>
-                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    
-                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <h4 class="font-italic mb-4">Confirm booking</h4>
-                        <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="tab-pane fade" id="reports" role="tabpanel" aria-labelledby="reports-tab">
+                      <div class="transforming-img">
+                        <img src="assets/media/reports.jpg" class="img-fluid">
+                      </div>
                     </div>
                 </div>
             </div>
           </div>
 
         </div>
-      </section>  End Transforming Section --> 
+      </section> <!-- End Transforming Section --> 
 
-
+      <!-- ======= Parallax Section ======= -->
+      <div class="particles-section">
       
+        <div id="parallax">
+          <h1>Why Learn from Cyboard?</h1>
+          <h5>Cyboard is an incredibly designed 100% online school and deliver education in tech-enabled manner bringing best of global curriculums & pedagogies together.</h5>
+          <button>Get A Free Online Counselling<i class="fas fa-chevron-right"></i></button>
+                
+          <div data-depth="0.4" class="layer" style="z-index: 10;">
+            <div id="particles-js-2">
+              <canvas class="particles-js-canvas-el" width='1500'></canvas>
+            </div>
+          </div>
+          <div data-depth="0.3" class="layer"></div>
+        </div>
+      </div>
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+      <!-- ======= Pricing Section ======= -->
+      <section id="pricing" class="pricing">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-up">
+            <h2>Advanced learning at an unbelievable fees</h2>
+            <p>Cyboard is India’s 1st 100 percent online school. We provide a quality education through our scientifically developed Learning Management System (LMS), so that, each and every student dedicated to learning can learn from the very comfort of their home.</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <h3>NURSERY</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1500/-</span></li>
+                  <li>Annual Fee <span>₹4600/-</span></li>
+                  <li>Learning Kit <span>₹3000/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="box">
+                <h3>KG</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1500/-</span></li>
+                  <li>Annual Fee <span>₹4600/-</span></li>
+                  <li>Book Set <span>₹3000/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="box">
+                <h3>PREP +</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1500/-</span></li>
+                  <li>Annual Fee <span>₹4600/-</span></li>
+                  <li>Learning Kit <span>₹3000/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <h3>CLASS 1</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1320/-</span></li>
+                  <li>Annual Fee <span>₹4800/-</span></li>
+                  <li>Book Set <span>₹3000/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="box">
+                <h3>CLASS 2</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1320/-</span></li>
+                  <li>Annual Fee <span>₹4800/-</span></li>
+                  <li>Book Set <span>₹3000/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="box">
+                <h3>CLASS 3</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1650/-</span></li>
+                  <li>Annual Fee <span>₹6000/-</span></li>
+                  <li>Book Set <span>₹3200/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="box">
+                <h3>CLASS 4</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1980/-</span></li>
+                  <li>Annual Fee <span>₹6000/-</span></li>
+                  <li>Book Set <span>₹3200/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="box">
+                <h3>CLASS 5</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹1980/-</span></li>
+                  <li>Annual Fee <span>₹6000/-</span></li>
+                  <li>Book Set <span>₹3200/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="box">
+                <h3>CLASS 6</h3>
+                <ul>
+                  <li>Monthly Tuition Fee <span>₹2200/-</span></li>
+                  <li>Annual Fee <span>₹7200/-</span></li>
+                  <li>Book Set <span>₹3800/-</span></li>
+                </ul>
+                <div class="btn-wrap">
+                  <a href="#" class="btn-buy">Register Now!</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section> <!-- End Pricing Section -->
+
+      <!-- ======= Clients Section ======= -->
+      <div id="clients" class="clients">
+
+        <div class="container">
+
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="assets/media/logos/ani.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/bs.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/bw.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/ew.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/ie.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/it.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/tt.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/media/logos/ttoi.png" class="img-fluid" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div><!-- End Clients Section -->
+
+    </main><!-- End #main -->
+
+    <footer>
+      <div class="container">
+        <h3>Admissions Open For Classes <span>Nursery</span> to <span>Sixth</span></h3>
+        <a href="#">Register Now!</a>
+      </div>
+    </footer>
+
     <div id="preloader"></div>
 
     <!-- jQuery -->
@@ -426,8 +617,12 @@
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
     <!-- Swiper -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <!-- GLightbox -->
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <!-- Particles -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js"></script>
     <!-- JS -->
     <script src="assets/js/index.js"></script>
 
