@@ -19,6 +19,11 @@ if (preloader) {
   });
 }
 
+/* Reload from top */
+$('body').css('overflow-y', 'hidden');
+$(window).on('load', function(){
+  $('body').css('overflow-y', 'scroll');
+});
 
 /* Toggle .header-scrolled class to #header when page is scrolled and loaded */
 $(window).on('scroll', function() {
